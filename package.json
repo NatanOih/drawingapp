@@ -9,14 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@upstash/redis": "^1.25.1",
+    "jotai": "^2.5.1",
     "next": "14.0.0",
     "react": "^18",
-    "react-color": "^2.19.3",
-    "react-dom": "^18"
+    "react-color-palette": "^7.1.0",
+    "react-dom": "^18",
+    "react-icons": "^4.11.0",
+    "uid": "^2.0.2"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
+    "@types/react-color": "^3.0.9",
     "@types/react-dom": "^18",
     "autoprefixer": "^10",
     "eslint": "^8",
