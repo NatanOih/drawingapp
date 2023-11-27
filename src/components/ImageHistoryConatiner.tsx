@@ -8,13 +8,13 @@ export default function ImageHistoryConatiner({
   userData: drawing[];
 }) {
   return (
-    <div className="text-slate-50 flex flex-col bg-red-400/90 rounded-md p-1">
+    <div className="text-slate-50 flex flex-row bg-red-400/90 w-fit gap-4 rounded-md py-1 px-1">
       {userData?.map((drawing: drawing, index: number) => (
         <div
-          className="flex flex-row justify-start items-center text-left p-1 gap-4 "
+          className="flex flex-col w-fit justify-start items-center text-center p-1 gap-2 "
           key={index}
         >
-          <p className="w-fit text-xl flex-grow "> {drawing.name} :</p>
+          <p className=" underline text-xl flex-grow "> {drawing.name} </p>
           {/* <p> id: {drawing.id} </p> */}
           <ImageClientComponent drawing={{ ...drawing }} />
         </div>

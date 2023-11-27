@@ -16,7 +16,7 @@ export default function UploadImgForm() {
         }
         await handleRedis(FormData, image, strokes);
       }}
-      className="flex flex-col rounded-md  bg-slate-500/70 h-fit w-fit p-5 gap-6"
+      className="flex flex-col rounded-md  bg-slate-500/70 h-fit w-fit py-4 px-2 gap-6"
     >
       <label htmlFor="imgName">Enter Image name</label>
       <input type="text" id="imgName" name="name" />

@@ -16,6 +16,7 @@
     "react-color-palette": "^7.1.0",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
+    "replicate": "^0.22.0",
     "uid": "^2.0.2"
   },
   "devDependencies": {

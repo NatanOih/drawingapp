@@ -167,8 +167,8 @@ export function useCanvas() {
 
       if (stroke === selectedStroke) {
         // Highlight the selected stroke (e.g., draw a border around it)
-        context.lineWidth = stroke.lineWidth + 2;
-        context.strokeStyle = "blue";
+        // context.lineWidth = stroke.lineWidth + 2;
+        // context.strokeStyle = "blue";
         context.stroke();
       }
     });

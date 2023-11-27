@@ -22,7 +22,7 @@ export default function DrawManu() {
         color={currentColor}
         onChange={setCurrentColor}
       /> */}
-      {/* <div className="flex flex-col gap-2 justify-center items-center"> */}
+
       <button
         type="button"
         className="p-2 rounded-md border w-fit h-10 border-black bg-slate-200 hover:bg-slate-400 transition-all hover:scale-105 active:scale-95"
@@ -47,7 +47,6 @@ export default function DrawManu() {
           Redo
         </button>
       </div>
-      {/* </div> */}
     </article>
   );
 }

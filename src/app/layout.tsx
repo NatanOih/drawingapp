@@ -18,7 +18,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className + ""}>
+      <body
+        className={
+          inter.className +
+          "min-h-[100vh] bg-gray-950 flex items-center justify-center"
+        }
+      >
         <Navbar />
         <CanvasContextProvider>{children}</CanvasContextProvider>
       </body>
